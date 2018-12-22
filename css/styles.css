@@ -1,0 +1,186 @@
+
+/* Base element styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif serif;
+  line-height: 1.5;
+  font-size: 1em;
+  color: darkgrey;
+}
+
+p {
+  font-size: .95em;
+  margin-bottom: 1.2em;
+}
+
+h2, h3, a {
+  color: darkgrey;
+}
+
+h2, h3 {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+/* base layout*/
+
+h2 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.name {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.name a, .main-nav a {
+  text-align: center;
+  padding: 15px 15px;
+  display: block;
+  margin: 0;
+  color: black;
+}
+
+.main-nav a {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.main-nav a:hover {
+  color: green;
+  text-decoration: underline;
+}
+
+
+/*  layout container */
+
+.container {
+  margin: 0 auto;
+}
+
+
+.showcase {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+
+.portfolio {
+  text-align: center;
+}
+
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  color: black;
+}
+
+.main-footer {
+  border-top: darkgrey .15em solid;
+  margin-top: 4em;
+}
+
+footer .mahad {
+  float: left;
+  color: black;
+}
+
+footer #backtotop {
+  float: right;
+  color: black;
+}
+
+.profile {
+  width: 50%;
+}
+
+/*  Media Queries */
+
+@media (min-width:768px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-nav {
+    text-align: center;
+  }
+
+  .main-nav li {
+    display: inline-block;
+  }
+
+  .showcase p {
+    float: left;
+    width: 50%;
+    padding: 0 1em;
+    font-size: 1.2em;
+  }
+
+  .showcase img {
+    float: right;
+    width: 50%;
+    padding: 0 1em;
+  }
+
+  .marketing, .travel, .gallery {
+    float: left;
+    padding: 0 1em;
+    width: 50%;
+  }
+
+  .search, .map, .calculator {
+    float: right;
+    padding: 0 1em;
+    width: 50%;
+  }
+
+
+
+  /*  Float clearfix */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+}
+
+@media (min-width: 1024px) {
+
+  .container {
+    width: 80%
+  }
+
+  .name {
+    float: left;
+  }
+
+  .main-nav {
+    float: right;
+    display: inline;
+  }
+
+
+
+}
