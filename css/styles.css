@@ -181,6 +181,18 @@ footer #backtotop {
     display: inline;
   }
 
+  .marketing, .travel, .gallery {
+    float: left;
+    padding: 0 1em;
+    width: 33.33%;
+  }
+
+  .search, .map, .calculator {
+    float: left;
+    padding: 0 1em;
+    width: 33.33%;
+  }
+
 
 
 }
