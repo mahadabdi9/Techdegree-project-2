@@ -105,9 +105,18 @@ footer .mahad {
   color: black;
 }
 
-footer #backtotop {
+footer .top {
   float: right;
   color: black;
+}
+
+footer .top a {
+  color: black
+}
+
+footer a:hover {
+  color: green;
+  text-decoration: underline;
 }
 
 .profile {
