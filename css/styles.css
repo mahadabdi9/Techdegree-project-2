@@ -16,7 +16,12 @@ p {
   margin-bottom: 1.2em;
 }
 
-h2, h3, a {
+h1, h2 {
+  color: black;
+  font-family: 'Acme', sans-serif;
+}
+
+h3, a {
   color: darkgrey;
 }
 
@@ -91,9 +96,7 @@ h2 {
   text-align: center;
 }
 
-.contact h1 {
-  color: black;
-}
+
 
 .main-footer {
   border-top: darkgrey .15em solid;
@@ -122,6 +125,8 @@ footer a:hover {
 .profile {
   width: 50%;
 }
+
+
 
 /*  Media Queries */
 
@@ -152,7 +157,8 @@ footer a:hover {
     padding: 0 1em;
   }
 
-  .marketing, .travel, .gallery {
+
+   .marketing, .travel, .gallery {
     float: left;
     padding: 0 1em;
     width: 50%;
@@ -165,10 +171,7 @@ footer a:hover {
   }
 
 
-
-  /*  Float clearfix */
-
-	.clearfix::after {
+  .clearfix::after {
 		content: " ";
 		display: table;
 		clear: both;
@@ -201,7 +204,6 @@ footer a:hover {
     padding: 0 1em;
     width: 33.33%;
   }
-
 
 
 }
