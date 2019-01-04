@@ -22,7 +22,7 @@ h1, h2 {
 }
 
 h3, a {
-  color: darkgrey;
+  color: black;
 }
 
 h2, h3 {
@@ -126,6 +126,11 @@ footer a:hover {
   width: 50%;
 }
 
+.bottom-nav {
+  display: none;
+}
+
+
 
 
 /*  Media Queries */
@@ -157,6 +162,10 @@ footer a:hover {
     padding: 0 1em;
   }
 
+  .bottom-nav {
+    display: none;
+  }
+
 
    .marketing, .travel, .gallery {
     float: left;
@@ -182,6 +191,20 @@ footer a:hover {
 
   .container {
     width: 80%;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .bottom-nav {
+    float: right;
+    display: inline;
+  }
+
+  .bottom-nav li {
+    display: inline;
+    padding: 0 15px;
   }
 
   .name {
