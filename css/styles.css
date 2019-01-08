@@ -42,6 +42,10 @@ li {
   list-style: none;
 }
 
+ul {
+  padding: 0;
+}
+
 /* base layout*/
 
 h2 {
@@ -163,9 +167,18 @@ footer a:hover {
   }
 
   .bottom-nav {
-    display: none;
+    float: right;
+    display: inline;
   }
 
+  .bottom-nav li {
+    display: inline;
+    padding: 0 15px;
+  }
+
+  .top {
+    display: none;
+  }
 
    .marketing, .travel, .gallery {
     float: left;
@@ -193,19 +206,7 @@ footer a:hover {
     width: 80%;
   }
 
-  .top {
-    display: none;
-  }
 
-  .bottom-nav {
-    float: right;
-    display: inline;
-  }
-
-  .bottom-nav li {
-    display: inline;
-    padding: 0 15px;
-  }
 
   .name {
     float: left;
